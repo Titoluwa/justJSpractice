@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" type="image/ico" href="favicon11.ico">
+    <title>VOTE</title>
+</head>
+<body>
+
+<!-- HEADER -->
+
+<section id="header">
+  <div class="container-fluid bg-dark text-center text-primary py-3">
+      <div class="row">
+        <div class="col-md-2">
+          <img src="images/nacoss.jpg" class="rounded-circle" alt="logo" width="100px">
+        </div>
+        <div class="col-md-10 align-self-end">
+          <h2 class="">OBAFEMI AWOLOWO UNIVERSITY</h2>
+          <h3 class="">DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING</h3>
+        </div>
+      </div>
+  </div>
+</section>
+
+<!-- NAVIGATION -->
+
+  <section id="navigation">
+      <div class="sticky-top">
+              <nav class="navbar navbar-expand-lg navbar-light py-3">                  
+                 <div class="container">
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav mr-auto">
+                        <li class="nav-item" style="font-weight : 600; font-size : 20px">
+                          <a class="nav-link " href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item" style="font-weight : 600; font-size : 20px">
+                          <a class="nav-link" href="index.html#registration" >Register</a>
+                        </li>
+                        <li class="nav-item" style="font-weight : 600; font-size : 20px">
+                          <a class="nav-link" href="page2.html" >Log In</a>
+                        </li>
+                        <li class="nav-item dropdown active" style="font-weight : 600; font-size : 20px">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" 
+                          aria-expanded="false">
+                           Voting
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="page4.html">Vote Here</a>
+                            <a class="dropdown-item" href="page5.html">Check Results</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="page3.html">Something else</a>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                 </div>
+                </nav>
+      </div>
+  </section>
+    <!-- VOTING FORM -->
+    <section id="voting ">
+      <div class="container">
+        <div class="row">
+          <div class="col-1">
+
+          </div>
+          <div class="col-10 " style="padding:50px;">
+            <div class="container" >
+              <form class="p-4 pr-5 form overflow-auto bgrad shadow-lg">
+                  <h2 class="text-center">IT IS TIME TO VOTE!</h2>
+                  <h4 class="text-center">Choose your preferred candidate</h4>
+                  <br>
+                  <div class="form-group row">
+                    <label class="col-md-3 col-form-label" for="president">President:</label>
+                    <select class="col-md-3 justify-content-center form-control" name="president" id="president">
+                      <option value="0"></option>
+                      <option value="1">Torimiro Folarin</option>
+                      <option value="2">Lawani Isiaq</option>
+                    </select>
+                    <label class="col-md-3 col-form-label" for="vp">Vice President:</label>
+                    <select class="col-md-3 justify-content-center form-control" name="vp" id="vp">
+                      <option value="0"></option>
+                      <option value="3">Adenuga Araromi</option>
+                      <option value="4">Shobajo Omotolani</option>
+                      <option value="5">Wasiu Kareem</option>
+                    </select>
+                  </div>
+                   <br>
+                  <div class="form-group row">
+                    <label class="col-md-3 col-form-label" for="gensec">General Secretary:</label>
+                    <select class="col-md-3 justify-content-center form-control" name="gensec" id="gensec">
+                      <option value="0"></option>
+                      <option value="6">Jamiu Ibrahim</option>
+                      <option value="7">Ibitoye Ewaoluwa</option>
+                    </select>     
+                    <label class="col-md-3 col-form-label" for="ags">Assistant General Secretary:</label>
+                    <select class="col-md-3 justify-content-center form-control" name="ags" id="ags">
+                      <option value="0"></option>
+                      <option value="8">Akinwale Folashade</option>
+                      <option value="9">Etukk Imabong</option>
+                    </select> 
+                  </div>
+                  <br>
+                  <div class="form-group row">
+                    <label class="col-md-3 col-form-label" for="pro">Public Relations Officer:</label>
+                    <select class="col-md-3 justify-content-center form-control" name="pro" id="pro">
+                      <option value="0"></option>
+                      <option value="10">Ekpata Daniel</option>
+                      <option value="11">Aderogba Boluwatife</option>
+                    </select> 
+                    <label class="col-md-3 col-form-label" for="lib">Librarian:</label>
+                    <select class="col-md-3 justify-content-center form-control" name="lib" id="lib">
+                      <option value="0"></option>
+                      <option value="12">Okere Adaku</option>
+                      <option value="13">Oyeniran Emmanuel</option>
+                    </select>
+                  </div>
+                  <br>
+                  <div class="form-group row">
+                    <label class="col-md-3 col-form-label" for="social">Social Director:</label>
+                    <select class="col-md-3 justify-content-center form-control" name="social" id="social">
+                      <option value="0"></option>
+                      <option value="14">Hassann Bolade</option>
+                      <option value="15">Gbede Ubani</option>
+                    </select> 
+                    <label class="col-md-3 col-form-label" for="sport">Sports Director:</label>
+                    <select class="col-md-3 justify-content-center form-control" name="sport" id="sport">
+                      <option value="0"></option>
+                      <option value="16">Majemu Folournsho</option>
+                      <option value="17">Daniel Ifeoluwa</option>
+                    </select> 
+                  </div>
+                  <br> 
+                  <p class="font-italic float-right" id="disclaimer"><b>Disclaimer:</b> After votes has been submitted, 
+                      changes cannot be made. YOU HAVE ONLY ONE VOTE. </p>
+                  <br> <br>
+                  <button class="btn btn-lg btn-dark float-right" type="submit">VOTE</button>
+              </form>
+            </div>
+          </div>
+          <div class="col-1">
+
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!--FOOTER  -->
+    <footer class="container-fluid bg-dark text-primary text-center p-5">
+      &copy;Toluwani2020 | Voting Website | Bootstrap
+    </footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>   
+</body>
+</html>

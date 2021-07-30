@@ -1,0 +1,13 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover, a:focus{color: rgb(111, 28, 160);}
+h2{
+    padding: .25em 0 .25em 25px;
+    cursor: pointer;
+}
+#disclaimer{display:inline; text-align: center; color: red; padding-left: 60px;}
+.close{display: none;}
+/* .open{display: block;} */
+p{width: 70%; text-align: justify; padding-left: 30px;}

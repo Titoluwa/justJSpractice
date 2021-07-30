@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" type="image/ico" href="favicon11.ico">
+    <title>LOG IN</title>
+</head>
+<body onload="student">
+<!-- HEADER -->
+
+  <section id="header">
+    <div class="container-fluid bg-dark text-center text-primary py-3">
+        <div class="row">
+          <div class="col-md-1"></div>
+          <div class="col-md-2">
+            <img src="images/nacoss.jpg" class="rounded-circle" alt="logo" width="100px">
+          </div>
+          <div class="col-md-8 align-self-end">
+            <h2 class="">OBAFEMI AWOLOWO UNIVERSITY</h2>
+            <h3 class="">DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING</h3>
+          </div>
+        </div>
+    </div>
+  </section>
+
+<!-- NAVIGATION -->
+
+    <section id="navigation">
+      <div class="">
+          <div>
+              <nav class="navbar navbar-expand-lg navbar-light py-3">                  
+                 <div class="container">
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav mr-auto">
+                        <li class="nav-item" style="font-weight : 600; font-size : 20px">
+                          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item" style="font-weight : 600; font-size : 20px">
+                          <a class="nav-link" href="index.html#registration" >Register</a>
+                        </li>
+                        <li class="nav-item active" style="font-weight : 600; font-size : 20px">
+                          <a class="nav-link" href="page2.html" >Log In</a>
+                        </li>
+                        <li class="nav-item dropdown" style="font-weight : 600; font-size : 20px">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" 
+                          aria-expanded="false">
+                           Voting
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="page4.html">Vote Here</a>
+                            <a class="dropdown-item" href="page5.html">Check Results</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="page3.html">Something else</a>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                 </div>
+                </nav>
+          </div>
+      </div>
+  </section>
+
+<!-- gallery  -->
+
+  <!-- <section id="gallery">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="view">
+            <img src="images/vote1.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-caption">
+            <h3 class="h3-responsive">YOUR VOTE COUNTS</h3>
+            <p>Your voice is heard</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="view">
+            <img src="images/vote2.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-caption">
+            <h3 class="h3-responsive">VOTING IS FREE</h3>
+            <p>You don't need to worry about the cost</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="view">
+            <img src="images/voteblue.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-caption">
+            <h3 class="h3-responsive">JUST MAKE A DECISION</h3>
+            <p>Your decision is your vote. Your vote is confidential</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section> -->
+  
+<!-- LOG IN FORM -->
+
+  <section id="login">
+    <div class="container-fluid bgrad" >
+      <div class="row">
+        <div class="col-4"></div>
+        <div class="col-sm-6 col-md-6 col-lg-4"> 
+          <div class="container">
+            <form class= "form p-4 my-5 overflow-auto"  action="">
+              <h3 class="text-center hblink">LOG IN</h3>
+              <br>
+              <label class= for="matric_num">Matric Number</label> 
+              <input class="form-control" type="text" name="matric_num" id="matric_num" 
+              pattern="[A-Z]{3}/[0-9]{4}/[0-9]{3}" placeholder="CSC/2011/001" required>
+              <br>
+              <label for="password">Password</label> 
+              <input class="form-control" type="password" name="password" id="password">
+              <br>
+              <a href="" class="float-left text-decoration-none text-dark">Forgot password?</a>
+              <button type="submit" class="btn btn-dark float-right">Login</button>
+            </form>
+          </div>
+        </div>
+        <div class="col-4"></div>
+      </div>
+    </div>
+  </section>
+   
+
+<!-- FOOTER -->
+    <footer class="container-fluid bg-dark text-primary text-center p-5">
+      &copy;Toluwani2020 | Voting Website | Bootstrap
+    </footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script>
+      function  student() {
+        window.alert("This site is for student of the Department of Computer Science and Engineering ONLY");
+      }
+    </script>  
+</body>
+</html>

@@ -1,0 +1,30 @@
+html{
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+*{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+.row{clear: both;}
+.column{float: left;}
+.clearfix:after{
+    content: "";
+    display: table;
+    clear:both;
+}
+footer{
+    background-color: rgb(207, 155, 255);
+    font-size: 1.2rem;
+}
+footer h2{
+    font-style: italic ;
+    text-transform: uppercase;
+    margin: 1rem 0 .3rem 0;
+}

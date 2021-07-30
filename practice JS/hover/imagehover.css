@@ -1,0 +1,14 @@
+li{
+    list-style-type: none;
+    padding-right: 10px;
+    /* padding-top: 20px; */
+    display: inline;
+}
+img{
+    padding-bottom: 20px;
+    width: 30%;
+}
+/* #image{
+    padding-left: 30px;
+    width: 80%;
+} */

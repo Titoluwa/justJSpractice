@@ -1,0 +1,260 @@
+<!doctype html>
+<html>
+    <head>
+        <title> Pirple Assignment #5 </title>
+        <style>
+            /* This the website i got some css properties i can used https://www.w3schools.com/cssref/ */
+                body {
+                    background-color:bisque;
+                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-size: 15px;
+                    text-justify: auto;
+                    margin: 0px 0px 0px 0px;
+                }
+                main{
+                    padding-left: 50px;
+                    padding-right: 50px;
+                }
+                nav, .foot {
+                    margin: 0px 0px;
+                    width: 100%;
+                    background-color: burlywood;
+                }
+                .foot{
+                    padding: 10px 10px;
+                }
+                nav ul{
+                    margin-right: 0%;
+                    margin-top: 0%;
+                    height: 60px;
+                    width: 100%;
+                    list-style: none;
+                    display: flex;
+                }
+                nav ul li{
+                    padding: 15px 15px;
+                    /* background-color:rgb(255, 227, 65);   */
+                }
+                nav ul li a {
+                    display: block;
+                    text-decoration: none;
+                    color: black;
+                }
+                .active {
+                    background-color: rgb(255, 227, 65);
+                }
+                nav ul li:hover{
+                    background-color:  rgb(214, 115, 44);
+                }
+                .article{
+                    display: flex;
+                }
+                .proce{
+                    width: 70%;
+                }
+                .ingre{
+                    width: 30%;
+                    background-color: whitesmoke;
+                    padding-left: 10px;
+                    margin-top: 5%;
+                    margin-bottom: 15%;
+                }
+                .heading {
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                }
+                #topic{
+                    background-color: rgb(141, 189, 93);
+                    font-size: 35px;
+                    padding-left:10px;
+                   /* margin-left: 100px;
+                    margin-right: 700px; */
+                    letter-spacing: 1px;  /* adjust space between characters in a text */
+                    text-align: center; /* adjust the horizontal alignment of text */
+                }
+                .imgp{
+                    text-align: center;
+                }
+                .imgone{
+                    margin-top: 15px;
+                    width: 355px;
+                    height: 259px;
+                    
+                }
+                .imgtwo {
+                    margin-top: 15px;
+                    width: 368px;
+                    height: 245px;
+                    margin-bottom: 10px;
+                }
+                .procedure{
+                    list-style-type: lower-roman;
+                    padding-left: 50px;
+                }
+                #ingredients{
+                    list-style-image:url(assets/iconfinder5.png);
+                    padding-left: 50px;
+                } 
+                #recipelink{
+                    list-style-image: url(assets/paperclip2.png);
+                    
+                }
+                /* media rule for browsers smaller than 400px */
+                @media (max-width: 400px){
+                    body{
+                        background-color: rgb(175, 146, 108);
+                        font-size: 10px;
+                    }
+                    .article{
+                        display: grid;
+                        align-content: center;
+                    }
+                    nav ul{
+                        width: 80%;
+                        display: grid;
+                        height: 100%;
+                    }
+                    .ingre{
+                        width: 100%;
+                        padding: 10px;
+                        margin: 0px;
+                    }
+                    .proce{
+                        width: 100%;
+                    } 
+                }
+                /* media rule for browsers larger than 750px */
+                @media (min-width: 750px){
+                    body{
+                        background-color: rgb(196, 148, 90);
+                        font-size: 20px;
+                    }
+                    .article{
+                        margin: 0%;
+                        padding: 0%;
+                    }
+                }
+                /* media rule for browsers between 401px and 750px */
+                @media (max-width: 750px) and (min-width: 401px) {
+                    .article{
+                        display: grid;
+                        align-content: center;
+                    }
+                    nav ul{
+                        display: grid;
+                        height: 100%;
+                        width: 80%;
+                    }
+                    .ingre{
+                        width: 100%;
+                        padding: 10px;
+                        margin: 0px;
+                    }
+                    .proce{
+                        width: 100%;
+                    } 
+                }   
+        </style>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li class="active"><a href="" > Home</a></li>
+                <li><a href="">Go to ingredients</a></li>
+                <li><a href="">Recipe</a></li>
+            </ul>
+        </nav>
+        <main>
+                
+            <h1 class="heading" id="topic">My Favourite Food</h1>
+                 <!-- First image of my favorite food -->
+                <p class="imgp">
+                <strong>This is what Jollof rice looks like, mouth watering🤤</strong>
+                <br>
+                <img src="assets/rice2.jpg" alt="Jollof Rice" class="imgone"> </p>
+
+                <p> &nbsp &nbsp &nbsp My Favourite food is Jollof rice. 
+                It's an African dish and there are different versions of it. Jollof rice is 
+                a one-pot rice dish popular in many West African countries such as Gambia, 
+                Senegal, Nigeria, Sierra Leone, Côte d'Ivoire, Liberia, Togo and Mali. 
+                It is also called reddish one-pot dish and varies in these countries.
+                I'm a Nigerian so i will be presenting the dish the nigerian way.
+                I like this food because it is very popular in my country, Nigeria.
+                it is cooked in parties and events like wedding, baby naming ceremony etc.
+                When cooked well, it is always very delicious and filling. 
+                </p> 
+            <section class="article" >
+                <div class="ingre">
+                    <h3 class="heading"> To prepare this meal go get this things first: </h3>
+                    <!-- this is the unordered list of ingredients -->
+                    <ul id="ingredients">
+                        <li> 4 cups (750g) long grain parboiled rice</li>
+                        <li> 2-3 cups Tomato Stew</li>
+                        <li> Chicken </li>
+                        <li> Pepper </li>
+                        <li> Salt </li>
+                        <li> 2 medium onions</li>
+                        <li> 3 Knorr cubes</li>
+                        <li> 2 teaspoons thyme</li>
+                        <li> 2 teaspoons curry powder</li>
+                    </ul>
+                </div>
+                <div class="proce">
+                    <h3 class="heading">&nbsp &nbsp To prepare jollof rice, Follow these steps; </h3>
+                    <!-- this is the ordered list of how to prepare the meal. Added in some emojis to the text-->
+                    <ol class="procedure">
+                    <li>Prepare the tomato stew. Visit the Tomato Stew page for details on how to do that. 
+                        It is advisable to prepare tomato stew before hand and keep in the freezer. 
+                        This is so that whenever you want to cook any jollof rice related dish, 
+                        it is just a matter of adding it to your cooking.🍅
+                    </li> 
+                    <li>If you will use whole chicken then wash and cut it into pieces. 
+                            Cook with the thyme, Knorr cubes and 2 bulbs of onions (chopped). 
+                            The cooking time depends on the type of chicken.  
+                            When done, grill it in an oven. You may also fry it.🍗
+                        </li> 
+                        <li>Parboil the rice using the method detailed in parboiling rice for cooking jollof rice. 
+                            Rinse the parboiled rice and put in a sieve to drain.🍚
+                        </li> 
+                        <li> Pour the chicken stock and the tomato stew into a sizeable pot and leave to boil.♨️    
+                        </li>
+                        <li>Add the drained parboiled rice, curry powder, salt and pepper to taste. 
+                            The water level should be the same level of the rice. 
+                            This is to ensure that all the water dries up by the time the rice is cooked.🍛
+                        </li>
+                        <li>
+                            Cover the pot and leave to cook on low to medium heat. 
+                            This way the rice does not burn before the water dries up.🍲
+                        </li>
+                        <li>
+                            If you parboiled the rice as described at parboiling rice for cooking jollof rice, 
+                            the rice should be done by the time the water is dry. Taste to confirm. 
+                            If not, you will need to add more water and reduce the heat to prevent burning. 
+                            Keep cooking till done.🥘
+                        </li> 
+                        <li>
+                            Then you can serve with Peppered Fish, Fried Plantains,  
+                            Moi Moi (Nigerian side dish),  Salad or Coleslaw.🍽️
+                        </li>  
+                    </ol>
+                </div>
+            </section>
+
+                <p class="imgp">
+                <strong>Take a look at what your meal should look like🤤</strong>
+                <br>
+                <img src="assets/jollof-rice1.jpg" alt="Jollof Rice" class="imgtwo"> </p>
+        </main>
+
+        <section class="foot">
+            <h4 class="heading">Check out these sites and compare it with my recipe</h4>
+            <ul id="recipelink">
+                <li><a href="https://elleyajoku.com/food/jollof-rice-recipe">Eleanor Ajoku lifestyle blog</a></li>
+                <li><a href="https://cheflolaskitchen.com/jollof-rice/"> Chef Lolas Kitchen</a></li>
+                <li><a href="https://food52.com/recipes/61557-classic-nigerian-jollof-rice">Food52</a></li>
+                <li><a href="https://allnigerianfoods.com/nigerian-jellof-rice"> All Nigerian Foods</a></li>
+                <li><a href="https://www.nigerianfoodtv.com/jollof-rice-how-to-cook-nigerian-jollof/"> Nigerian Food TV</a></li>
+            </ul>
+        </section>
+    </body>
+</html>

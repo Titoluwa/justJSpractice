@@ -1,0 +1,40 @@
+/* html{
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+*{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+} */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#listOfBooks{
+    overflow: hidden;
+    background-color: rgba(252, 249, 77, 0.274);
+    margin: 5% 10%;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+.closed{display: none;}
+h1{position: relative;}
+h3{cursor: pointer;}
+.book:focus, .book:hover{
+    color: rgb(165, 5, 5);
+}
+a{text-decoration: none; color: black;}
+#show{ 
+    padding-right: 20%;
+    padding-top: 10px;
+    width: 20%;
+    height: 40%;
+    float: right;
+}
+/* article{
+    float: right;
+} */
+/* aside{float: right;} */

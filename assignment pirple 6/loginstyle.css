@@ -1,0 +1,60 @@
+body{
+    background-image: url("assets/mini-profile-bg-02.jpg");
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+#navi{
+    list-style-type: none;
+    display: flex;
+    float: right;
+}
+li{
+    padding: 10px; 
+    font-weight:600;
+}
+.main{
+    background-color:rgba(39, 255, 147, 0.705);
+    border-radius: 10px;
+    margin: 70px 1000px 100px 50px;
+    padding: 50px 50px 50px 50px;
+    width: 30%;
+    height: 100%;
+    text-align: center;
+}
+h1{ 
+    color: white; 
+    font-weight: 600;}
+input{
+    border: 0ch;
+    border-radius:8px;
+    padding: 10px;
+    margin: 5px;
+    width: 55%;
+}
+nav {width: 100%; height: 100px;}
+a{text-decoration: none; color: rgb(42, 133, 1);}
+.active{background-color:rgba(39, 255, 147, 0.705);}
+li:hover{background-color:rgba(222, 184, 135, 0.787);}
+#getpass{
+    font-size: 12px; 
+    text-decoration: underline;
+}
+button{
+    font-size: 18px;
+    padding: 10px;
+    width: 50%;
+    color:white;
+    background-color:burlywood;
+    border: 1px;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: white;
+    color: rgb(192, 156, 64);
+}
+footer{
+    text-align: center;
+    color:rgb(42, 133, 1) ;
+    font-weight: 650;
+}
